@@ -30,8 +30,9 @@ Last updated: 12/25/2024, 14:30:45
 **🔄 Simulation vs Real Zama FHE**
 **Current Simulation:**  
 
- ✅ Notes are secure on the blockchain
- ✅ Nobody can read your note
+✅ Notes are secure on the blockchain
+ 
+✅ Nobody can read your note
 
 ❌ You cannot read your note
 
