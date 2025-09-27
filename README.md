@@ -30,13 +30,21 @@ Last updated: 12/25/2024, 14:30:45
 **🔄 Simulation vs Real Zama FHE**
 **Current Simulation:**
 ✅ Notes are secure on the blockchain
+
+
 ✅ Nobody can read your note
+
 ❌ You cannot read your note
+
 ❌ This is not real encryption
 **With Real Zama FHE:**
+
 ✅ Notes are encrypted on-chain
+
 ✅ Nobody can read them
+
 ✅ You can decrypt your note with your private key
+
 ✅ True homomorphic encryption
 
 # Zama-Fhevm Note encryption
