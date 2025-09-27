@@ -1,3 +1,69 @@
+🔐 How the App Works
+
+1. Writing a Note (Save Note)
+
+What you do:
+
+Type a note in the textarea (e.g., "My secret password is 123456")
+
+Click "Encrypt & Save to Blockchain"
+
+2. Storing on the Blockchain
+
+Your note is converted into a hashed value and sent to the Sepolia testnet
+
+The smart contract's setNote() function is called
+
+Once confirmed, the note is permanently stored on the blockchain
+
+3. Reading a Note (Retrieve Note)
+
+What you do:
+
+Click "Retrieve Note Information"
+
+❗ IMPORTANT FACT: You cannot see the actual content of your note!
+
+Why?
+
+This is a simulation – not real FHE (Full Homomorphic Encryption)
+
+Only the hash of your note is stored – the original content is never saved
+
+Hashes are one-way functions (SHA-3), meaning they cannot be reversed
+
+Example Scenario:
+Your input:
+
+"Meeting my friend today"
+
+
+What gets stored on the blockchain:
+
+"0x8f4a5b3c9d2e1f0a8b7c6d5e4f3a2b1c0d9e8f7a6b5c4d3e2f1a0b9c8d7e6f5"
+
+
+When you read it back, you only see:
+
+"Last updated: 12/25/2024, 14:30:45"
+
+🔄 Simulation vs. Real Zama FHE
+
+Current Simulation:
+✅ Your note is secure on the blockchain
+✅ No one can read the content (only the hash exists)
+❌ You cannot read your own note
+❌ This is not real encryption
+
+With Real Zama FHE:
+✅ Your note is encrypted on the blockchain
+✅ No one can read it without your key
+✅ You can decrypt and read your note with your private key
+✅ Powered by true homomorphic encryption
+
+
+
+
 # Zama-Fhevm Note encryption
 
 
