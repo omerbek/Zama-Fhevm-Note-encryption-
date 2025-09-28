@@ -819,11 +819,11 @@ function App() {
 }
 
 export default App;
----
+```
 
 **🎨 Prepare src/App.css file**
 
-bash---
+```bash
 /* App.css */
 * {
   margin: 0;
@@ -1360,8 +1360,7 @@ body {
     font-size: 0.9em;
   }
 }
----
-
+```
 **Let's goooo Then Start.**
 PORT=5300 npm start
 
