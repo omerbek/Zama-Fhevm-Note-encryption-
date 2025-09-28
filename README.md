@@ -821,7 +821,12 @@ function App() {
 export default App;
 ```
 
-**🎨 Prepare src/App.css file**
+
+
+**🎨 Then edit `src/App.css` file** 
+
+
+
 
 ```bash
 /* App.css */
@@ -1362,7 +1367,8 @@ body {
 }
 ```
 **Let's goooo Then Start.**
+```bash
 PORT=5300 npm start
-
+```
 
 ✨ Done! You now have a working simulation of **Encrypted Notes on Blockchain with Zama FHEVM template**.  
